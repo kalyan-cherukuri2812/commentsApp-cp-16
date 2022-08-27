@@ -1,0 +1,111 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.com-list {
+  list-style-type: none;
+}
+
+.initial-card {
+  border-radius: 16px;
+  color: white;
+  font-family: roboto;
+  width: 32px;
+  height: 32px;
+  margin-top: 18px;
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.list-card-1 {
+  display: flex;
+}
+.name-card {
+  display: flex;
+  align-items: center;
+}
+.name {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 25px;
+  color: #1e293b;
+}
+
+.time {
+  color: #cbd2d9;
+  font-size: 14px;
+  font-weight: 500;
+}
+.comment {
+  color: #475569;
+  font-family: roboto;
+  font-size: 16px;
+}
+.like-container {
+  display: flex;
+  align-items: center;
+}
+.like-del-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-img {
+  width: 25px;
+  height: 23px;
+  margin-right: 10px;
+}
+
+.like {
+  color: #475569;
+  font-family: roboto;
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.liked {
+  color: #0ea5e9;
+  font-family: roboto;
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.del-img {
+  width: 23px;
+  height: 23px;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+}
